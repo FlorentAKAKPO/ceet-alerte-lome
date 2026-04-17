@@ -1,0 +1,11 @@
+{
+  "name": "ceet-alerte-lome",
+  "version": "1.0.0",
+  "description": "Application de détection de risque de coupure CEET à Lomé.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

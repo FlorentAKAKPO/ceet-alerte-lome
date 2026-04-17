@@ -1,0 +1,76 @@
+body { 
+    font-family: Arial, sans-serif; 
+    max-width: 400px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background: #f5f5f5;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 { 
+    font-size: 22px; 
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+select, button { 
+    width: 100%; 
+    padding: 15px; 
+    margin: 10px 0; 
+    font-size: 16px; 
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button { 
+    background: #000; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold;
+}
+
+button:active { transform: scale(0.98); }
+
+.signal {
+    background: #dc3545;
+    margin-top: 20px;
+}
+
+.badge { 
+    padding: 20px; 
+    border-radius: 8px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin: 20px 0; 
+    font-size: 20px; 
+}
+
+.vert { background: #d4edda; color: #155724; }
+.orange { background: #fff3cd; color: #856404; }
+.rouge { background: #f8d7da; color: #721c24; }
+
+#conseil { 
+    font-size: 14px; 
+    background: #eee; 
+    padding: 15px; 
+    border-radius: 8px; 
+    line-height: 1.5;
+}
+
+#historique {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) { 
+    body { margin: 20px auto; padding: 10px; }
+    h1 { font-size: 20px; }
+}

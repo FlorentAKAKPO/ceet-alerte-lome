@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEET Alert Lomé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Risque Coupure CEET - Lomé</h1>
+        
+        <select id="quartier">
+            <option value="">Choisis ton quartier</option>
+            <option value="Agoè">Agoè</option>
+            <option value="Bè-Kpota">Bè-Kpota</option>
+            <option value="Adidogomé">Adidogomé</option>
+            <option value="Tokoin">Tokoin</option>
+            <option value="Hédzranawoé">Hédzranawoé</option>
+        </select>
+        
+        <button onclick="calculerRisque()">Vérifier le risque</button>
+        
+        <div id="resultat" class="badge"></div>
+        <p id="conseil"></p>
+        <p id="historique"></p>
+        
+        <button class="signal" onclick="signalerCoupure()">⚡ Je suis coupé actuellement</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
